@@ -34,11 +34,10 @@
   border: 1px solid lightblue;
 }
 
-/* 後ほど検証 */
 .rooms {
   background-color: #2F3E51;
-  height: calc(102vh - 100px);
-  width: 105%;
+  height: calc(100vh - 100px);
+  width: 100%;
   padding: 0 20px;
   overflow: scroll;
 }
@@ -85,6 +84,7 @@
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
+  overflow: scroll;
 }
 
 .message {
