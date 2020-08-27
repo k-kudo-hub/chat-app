@@ -17,6 +17,7 @@ module ChatApp
       g.javascript false
       g.helper false
       g.test_framework false
+      config.action_view.field_error_proc = Proc.new { |html_tag, instance| html_tag }
     end
   end
 end
